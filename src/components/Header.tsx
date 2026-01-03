@@ -8,6 +8,7 @@ export function Header() {
         <Link 
           href="https://vk.com/vito_s"
           className="underline opacity-70 font-mono"
+          target="_blank"
         >
           @vito_s
         </Link>
