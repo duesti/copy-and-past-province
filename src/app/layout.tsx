@@ -5,7 +5,7 @@ import { ThemeProvider } from "@/components/providers/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
 
 export const metadata: Metadata = {
-  title: "Утилита для СС #4"
+  title: "Утилита для СС #4",
 };
 
 export default function RootLayout({

@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { CopyButton } from "@/components/CopyButton";
+import { Header } from "@/components/Header";
 import { SettingsMenu } from "@/components/SettingsMenu";
 import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -24,6 +25,7 @@ export default function Home() {
           ))}
           <SettingsMenu />
         </TabsList>
+        <Header />
         {tabs.map((category, index) => (
           <TabsContent value={tabs[index]} key={index}>
             <motion.section
